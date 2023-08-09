@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Video9 from './example/video9'
+import Video10 from './example/Video10'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -29,7 +29,11 @@ function App() {
     //     Click on the Vite and React logos to learn more 2343243243
     //   </p>
     // </div>
-    <Video9 />
+    <Video10
+      defaultAge={25}
+      defaultName='nghia'
+
+    />
   )
 }
 
